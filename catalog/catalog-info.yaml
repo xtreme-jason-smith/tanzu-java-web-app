@@ -11,6 +11,10 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
+  links:
+    - url: https://tanzu-java-web-app.dev2.tap.jason.tap-sit.cf-app.com/
+      title: Tanzu Java Web App
+      icon: github
 spec:
   type: service
   lifecycle: experimental
